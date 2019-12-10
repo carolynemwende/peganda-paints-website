@@ -1,3 +1,106 @@
-body{
-	background-color:aqua;
+html,body{
+	padding: 0;
+	margin: 0;
+	font-family:Roboto,'sanserif'
+
+}
+/*styling the nav*/
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #4a4a4a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+.navbar img:hover{
+	transition: 0.5s;
+	transform: rotate(360deg);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: green;
+    font-size: 12px;
+    transition:0.5s; 
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    transform: rotate(15deg);
+}
+
+/*styling home page*/
+
+#my-image-div{
+	min-height: 450px;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image:url(../img/01.jpg);
+
+	
+}
+#my-image-text{
+	position: relative;
+	top: 50px;
+	width: 500px;
+}
+
+/*styling contact page*/
+
+.contact-hero-bg-img{
+	color: white;
+	min-height: 450px;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image:url(../img/01.jpg);
+
+}
+
+.contact-hero-bg-img h2{
+	top:200px;
+	font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.peganda-paints-img1{
+	min-height: 500px;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image:url(../img/02.jpg);
+}
+
+@media only screen and (max-width: 769px) {
+
+/*styling contact page*/
+
+.contact-hero-bg-img h2{
+	font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+.navigation-map iframe{
+	width: 100%;
+	
+}
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+/*styling contact page*/
+
+.contact-hero-bg-img h2{
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: auto;
+	margin-bottom: auto;
+    text-transform: uppercase
+}
+.navigation-map iframe{
+	width: 100%;
+	
+}
+
 }
