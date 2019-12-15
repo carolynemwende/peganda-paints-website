@@ -34,6 +34,54 @@ html,body{
 	background-position: center center;
 	background-image:url(../img/01.jpg);
 }
+
+.home_intro_content{
+	padding-top: 60px;
+}
+.home_intro_content h1{
+	margin: 0;
+	color: #000;
+	font-size: 47px;
+    font-weight: 700;
+    line-height: 73px;
+    text-transform: uppercase;
+}
+.home_intro_content hr{
+	width: 20%;
+	margin: 20px 0 20px 0;
+	border-bottom: 4px solid #6351ce;
+}
+
+/*.section_2_content img{
+	margin-left: 189.6px;
+}
+*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .panel{
 	float: left;
 }
@@ -107,6 +155,12 @@ html,body{
 
 
 @media only screen and (max-width: 1024px) {
+
+/*styling home page*/
+
+.section_2_content img{
+	width: 100%;
+}
 
 /*styling contact page*/
 
