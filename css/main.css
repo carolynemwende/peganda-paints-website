@@ -46,6 +46,10 @@ html,body{
     line-height: 73px;
     text-transform: uppercase;
 }
+
+.home_intro_content p{
+	margin-bottom: 20%;
+}
 .home_intro_content hr{
 	width: 20%;
 	margin: 20px 0 20px 0;
@@ -58,7 +62,10 @@ html,body{
 */
     
 
-
+.image{
+	transform: translateY(-20%);
+    background-color: #fff;
+}
 
 
 
