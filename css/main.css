@@ -80,13 +80,14 @@ html,body{
    font-weight: 700;
    text-align: center;
 }
-
+.section_3_content{
+	text-align: center;
+}
 
 .section_3_content p{
   color: #566068;
   font-size: 14px;
-  /*max-width: 425px;*/
-  margin: 0 auto 20px;
+  margin:20px 0 40px 0;
 }
 
 .section_3_content h5{
@@ -97,7 +98,43 @@ html,body{
   letter-spacing: .05em;
   /*text-align: center;*/
 }
+	
+.img-container img{
+	width: 350px;
+	padding-top: 10px;
+}
+.img-container {
+   text-align: center;
+}
 
+.content_section_paints h3{
+  padding: 10px 0;
+}
+
+.content_section_paints span{
+  color:#6351ce;
+  font-size: 13px;
+
+}
+
+.content_section_paints p{
+   line-height: 1.7em;
+}
+.bottom_text {
+	padding: 40px 0;
+	text-align: center;
+}
+.bottom_text span{
+	color:#6351ce;
+	font-size: 13px;
+}
+
+.bottom_text h2{
+	line-height: 36px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: normal;
+}
 
 
 
@@ -172,6 +209,51 @@ html,body{
 
 @media only screen and (max-width: 769px) {
 
+/*styling home page*/
+
+.section_2_content img{
+	width: 100%;
+}
+
+.home_intro_content{
+	padding-top: 20px;
+}
+.home_intro_content h1{
+	margin: 0;
+	color: #000;
+	font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.home_intro_content p{
+	margin-bottom: 20%;
+}
+.home_intro_content hr{
+	width: 20%;
+	margin: 10px 0 20px 0;
+	border-bottom: 4px solid #6351ce;
+}
+.img-container img{
+    width: 100%;
+}
+
+.section_3_content{
+	text-align:left;
+}
+.content_section_paints h3{
+  font-size: 25px;
+}
+
+.bottom_text h2{
+    font-size: 22px;
+   
+}
+
+
+
+
 /*styling contact page*/
 
 .contact-hero-bg-img h2{
@@ -183,6 +265,7 @@ html,body{
 	width: 100%;
 	
 }
+
 
 }
 
