@@ -179,6 +179,35 @@ html,body{
 	background-position: center center;
 	background-image:url(../img/about-bg.png);
 }
+.about-content{
+	width: 600px;
+	margin: 0 auto;
+	padding:95px 0;
+}
+
+.about-content p{
+	color: gray;
+	line-height: 1.5rem;
+	word-spacing: 2px;
+    font-weight: bold;
+    font-family: neuzeit-grotesk,sans-serif;
+}
+
+.img-container2 img{
+	width: 40px;
+	padding-top: 10px;
+	padding-bottom:10px; 
+	transform: rotate(180deg);
+	transform: matrix(20);
+}
+
+.img-container2 {
+   text-align: center;
+}
+
+.img-container2 h3{
+   text-align: center;
+}
 /*styling contact page*/
 #contact{
 	color: white;
@@ -188,11 +217,6 @@ html,body{
 	background-position: center center;
 	background-image:url(../img/hero-bg-contact.png);	
 }
-.hero-bg-img{
-	
-
-}
-
 .hero-bg-img h2{
 	top:200px;
 	font-size: 36px;
@@ -267,10 +291,17 @@ html,body{
   font-size: 18PX;
 }
 .bottom_text h2{
-    font-size: 22px;
-   
+    font-size: 22px;{ 	
+}
+/*styling about page */  
+.about-content{
+	width: 100%;
+	padding: 30px 0;
 }
 
+.img-container2 {
+   text-align:left;
+}
 
 
 
@@ -338,6 +369,25 @@ p{
     font-weight: normal;
 }
 
+/*styling about page*/
+.about-content{
+	width: 100%;
+	padding: 30px 0;
+}
+.img-container2 img{
+   width: 20px;
+   float: left;
+   margin-right: 5px;
+}
+}
+.img-container2 h5{
+	font-size: 18px;
+  padding-top: 9px;
+}
+.img-container2 {
+   text-align:left;
+}
+
 /*styling contact page*/
 
 .contact-hero-bg-img h2{
@@ -359,5 +409,7 @@ p{
     letter-spacing: 0.15em;
     transform: rotate(0deg);
 }
+
+
 
 }
