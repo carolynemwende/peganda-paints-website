@@ -22,9 +22,8 @@ html,body{
     transition:0.5s; 
     font-weight: 700;
     letter-spacing: 0.15em;
-    transform: rotate(360deg);
+    /*transform: rotate(360deg);*/
 }
-
 /*styling home page*/
 
 #my-image-div{
@@ -41,6 +40,7 @@ html,body{
 .home_intro_content h1{
 	margin: 0;
 	color: #000;
+	width: 800px;
 	font-size: 47px;
     font-weight: 700;
     line-height: 73px;
@@ -48,7 +48,8 @@ html,body{
 }
 
 .home_intro_content p{
-	margin-bottom: 20%;
+	margin-bottom: 15%;
+	padding: 0;
 }
 .home_intro_content hr{
 	width: 20%;
@@ -74,6 +75,10 @@ html,body{
 
 .img-2 img{
     border-radius: 5px;
+}
+.section_3_content{
+	padding: 25px 0;
+
 }
 .section_3_content  h2{
    font-size: 17px;
@@ -165,19 +170,30 @@ html,body{
 	border-color:transparent;
 }
 
-/*styling contact page*/
-
-.contact-hero-bg-img{
+/*styling about page*/
+#about{
 	color: white;
 	min-height: 450px;
 	background-size: cover;
 	background-attachment: scroll;
 	background-position: center center;
-	background-image:url(../img/01.jpg);
+	background-image:url(../img/about-bg.png);
+}
+/*styling contact page*/
+#contact{
+	color: white;
+	min-height: 450px;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image:url(../img/hero-bg-contact.png);	
+}
+.hero-bg-img{
+	
 
 }
 
-.contact-hero-bg-img h2{
+.hero-bg-img h2{
 	top:200px;
 	font-size: 36px;
     font-weight: 700;
@@ -190,7 +206,7 @@ html,body{
 	background-size: cover;
 	background-attachment: scroll;
 	background-position: center center;
-	background-image:url(../img/02.jpg);
+	background-image:url(../img/bg-contact1.png);
 }
 
 .footer{
@@ -221,7 +237,8 @@ html,body{
 .home_intro_content h1{
 	margin: 0;
 	color: #000;
-	font-size: 30px;
+	width: 100%;
+	font-size: 25px;
     font-weight: 600;
     line-height: 40px;
     text-transform: uppercase;
@@ -244,8 +261,11 @@ html,body{
 }
 .content_section_paints h3{
   font-size: 25px;
+  line-height: 1.5em;
 }
-
+.content_section_paints h3{
+  font-size: 18PX;
+}
 .bottom_text h2{
     font-size: 22px;
    
@@ -291,7 +311,7 @@ p{
 .home_intro_content h1{
 	margin: 0;
 	color: #000;
-	font-size: 30px;
+	font-size: 25px;
     font-weight: 600;
     line-height: 40px;
     text-transform: uppercase;
@@ -304,6 +324,18 @@ p{
 	width: 20%;
 	margin: 10px 0 20px 0;
 	border-bottom: 4px solid #6351ce;
+}
+
+.bottom_text span{
+	color:#6351ce;
+	font-size: 13px;
+}
+
+.bottom_text h2{
+	line-height: 36px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: normal;
 }
 
 /*styling contact page*/
