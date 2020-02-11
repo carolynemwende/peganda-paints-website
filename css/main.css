@@ -16,7 +16,7 @@ p{
 	font-weight: bold;
 	margin:45px 0 10px 0;
 }
-.h3-styling{
+.h2-styling{
 	color: #4a4a4a;
 	font-size: 25px;
 	line-height: 1.2;
@@ -130,8 +130,12 @@ p{
  .all-pad-15{
      padding:15px;
 }
+.pad-bot-tp{
+	padding: 80px 0;
+}
  .pad-top-5{
      padding-top:5px;
+}
 }
  .mar-top-5{
      margin-top: 5px;
@@ -211,6 +215,9 @@ p{
 .bg-blue{
 	background-color: #383785;
 }
+.bg-grey{
+	background-color: #f8f7f7;
+}
 
 
 
@@ -225,13 +232,16 @@ p{
 	width: 100%;
 	height: auto;
 }
+.h2-styling{
+	margin:0px 0 5px 0;
+}
 }
 
 @media screen and (max-width: 767px) {
 .h1-syle{
 	margin:0px 0 10px 0;
 }
-.h3-styling{
+.h2-styling{
 	margin:0px 0 5px 0;
 }
   .main-header .bg-orange-header{
