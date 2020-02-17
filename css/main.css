@@ -8,6 +8,9 @@ p{
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+}
 
 .h1-syle{
 	color: #4a4a4a;
@@ -99,9 +102,27 @@ p{
 }
 .reach-out-content{
 	color:#f67f1d;
+	margin-top: 7%;
+}
+.reach-out-content h3{
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	font-weight:500;
+}
+.reach-out-content-button {
 	margin-top: 8%;
 }
+.reach-out-content-button a{
+	color: #fff;
+	text-decoration: none;
+}
+.reach-out-content-button button{
+	border: none;
+	padding: 7px 20px;
+	border-radius: 2px;
 
+}
 
 
 
@@ -336,6 +357,9 @@ p{
      margin-top: 50px;
 }
 .text-40 {
+	font-size: 30px;
+}
+.reach-out-content h3{
 	font-size: 30px;
 }
 }
