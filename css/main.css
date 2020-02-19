@@ -121,19 +121,35 @@ a{
 	border: none;
 	padding: 7px 20px;
 	border-radius: 2px;
+}
 
+/*footer*/
+.footer{
+	color:#fff;
+	font-size: 13px;
+	background-color: #161c27;
+	}
+.footer a{
+	color:#fff;
+	text-decoration: none;
+}
+.footer-copyright{
+	font-size: 13px;
+	background-color: rgba(0,0,0,0.2);
 }
 
 
 
 
 
-
-
-
-
-
-
+.line-height-2{
+	line-height: 2em;
+}
+.hr-wdth-60{
+	width: 60px;
+	margin-top: 0 !important;
+	border: 1.2px solid #fcb61b; 
+}
 .hr-orange-bg{
 	border: 1.5px solid #f67f1d;
 }
@@ -213,6 +229,9 @@ a{
 }
  .mar-bot-5{
      margin-bottom: 5px !important;
+}
+ .mar-bot-10{
+     margin-bottom: 10px !important;
 }
  .mar-top-15{
      margin-top: 15px;
