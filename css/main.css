@@ -26,6 +26,9 @@ a{
 	font-weight: bold;
 	margin:65px 0 5px 0;
 }
+.p-styling{
+	margin:45px 0 10px 0;
+}
 
 /*styling header*/
 
@@ -39,7 +42,7 @@ a{
 .navbar-links{
 	background-color:rgb(0,0,0,0.7);
 }
-.header-navbar{
+#homepage-hero-img{
 	min-height: 650px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -120,7 +123,58 @@ a{
 	border: none;
 	padding: 7px 20px;
 	border-radius: 2px;
+}
 
+/*styling aboutpage*/
+
+#aboutpage-hero-img{
+	min-height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/about-top-bg.png);
+}
+.about-after-bg-img{
+	min-height: 550px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/bg-services-page.png);
+}
+.pegada-history{
+	padding: 100px 0 20px 0;
+}
+.pegada-img-bg{
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/10.jpg);
+}
+.our-history{
+	width: 550px;
+	padding: 20px 20px 60px 20px;
+	background-color: #fff;
+	transform: translateY(-15%);
+}
+.our-history h2{
+	color: #4a4a4a;
+	font-size: 25px;
+	line-height: 1.2;
+	font-weight: bold;
+	margin:35px 0 5px 0;
+}
+
+.vision{
+	min-height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/12.jpg);
 }
 
 
@@ -133,6 +187,70 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*styling contacts page*/
+#contactpage-hero-image{
+	min-height: 550px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/09.jpg);
+}
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+	color:#fff;
+	font-size: 13px;
+	background-color: #161c27;
+	}
+.footer a{
+	color:#fff;
+	text-decoration: none;
+}
+.footer-copyright{
+	font-size: 13px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.line-height-2{
+	line-height: 2em;
+}
+.hr-wdth-60{
+	width: 60px;
+	margin-top: 0 !important;
+	border: 1.2px solid #fcb61b; 
+}
 .hr-orange-bg{
 	border: 1.5px solid #f67f1d;
 }
@@ -212,6 +330,9 @@ a{
 }
  .mar-bot-5{
      margin-bottom: 5px !important;
+}
+ .mar-bot-10{
+     margin-bottom: 10px !important;
 }
  .mar-top-15{
      margin-top: 15px;
@@ -311,13 +432,22 @@ a{
 .mar-top-60{
 	margin-top: 20px;
 }
-.header-navbar{
+#homepage-hero-img{
 	min-height: 400px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
 	background-image: url(../img/02.jpg);
+}
+
+.about-after-bg-img{
+	min-height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/bg-services-page.png);
 }
 
 }
@@ -332,7 +462,7 @@ a{
   .main-header .bg-orange-header{
 	display: none;
 }
-.header-navbar{
+#homepage-hero-img{
 	min-height: 400px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -340,6 +470,24 @@ a{
 	background-position: center center;
 	background-image: url(../img/02.jpg);
 }
+.our-history{
+	width: 550px;
+	padding: 20px 20px 60px 20px;
+	background-color: #fff;
+	transform: translateY(0);
+}
+.about-after-bg-img{
+	min-height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/bg-services-page.png);
+}
+.pegada-history{
+	padding: 30px 0 20px 0;
+}
+
 .h1-syle{
 	color: #4a4a4a;
 	font-size: 25px;
@@ -350,6 +498,9 @@ a{
 .home-intro-img img{
 	width: 100%;
 	height: auto;
+}
+.our-history{
+	width: 100%;
 }
 
 .mar-top-100{
