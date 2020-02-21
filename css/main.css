@@ -26,6 +26,9 @@ a{
 	font-weight: bold;
 	margin:65px 0 5px 0;
 }
+.p-styling{
+	margin:45px 0 10px 0;
+}
 
 /*styling header*/
 
@@ -123,10 +126,57 @@ a{
 	border-radius: 2px;
 }
 
+/*styling aboutpage*/
 
+#aboutpage-hero-img{
+	min-height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/about-top-bg.png);
+}
+.about-after-bg-img{
+	min-height: 550px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/bg-services-page.png);
+}
+.pegada-history{
+	padding: 100px 0 20px 0;
+}
+.pegada-img-bg{
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/10.jpg);
+}
+.our-history{
+	width: 550px;
+	padding: 20px 20px 60px 20px;
+	background-color: #fff;
+	transform: translateY(-15%);
+}
+.our-history h2{
+	color: #4a4a4a;
+	font-size: 25px;
+	line-height: 1.2;
+	font-weight: bold;
+	margin:35px 0 5px 0;
+}
 
-
-
+.vision{
+	min-height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/12.jpg);
+}
 
 
 
@@ -392,6 +442,15 @@ a{
 	background-image: url(../img/02.jpg);
 }
 
+.about-after-bg-img{
+	min-height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/bg-services-page.png);
+}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -412,6 +471,24 @@ a{
 	background-position: center center;
 	background-image: url(../img/02.jpg);
 }
+.our-history{
+	width: 550px;
+	padding: 20px 20px 60px 20px;
+	background-color: #fff;
+	transform: translateY(0);
+}
+.about-after-bg-img{
+	min-height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/bg-services-page.png);
+}
+.pegada-history{
+	padding: 30px 0 20px 0;
+}
+
 .h1-syle{
 	color: #4a4a4a;
 	font-size: 25px;
@@ -422,6 +499,9 @@ a{
 .home-intro-img img{
 	width: 100%;
 	height: auto;
+}
+.our-history{
+	width: 100%;
 }
 
 .mar-top-100{
