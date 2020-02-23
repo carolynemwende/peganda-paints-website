@@ -169,8 +169,16 @@ a{
 	font-weight: bold;
 	margin:35px 0 5px 0;
 }
+.h2-style{
+	color: #fff;
+	font-size: 25px;
+	line-height: 1.2;
+	font-weight: bold;
+	margin:65px 0 5px 0;
+}
 
-.vision{
+#Vision{
+	color: #fff;
 	min-height: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -178,10 +186,29 @@ a{
 	background-position: center center;
 	background-image: url(../img/12.jpg);
 }
+.team h2{
+	color: #4a4a4a;
+	font-size: 25px;
+	line-height: 1.2;
+	font-weight: bold;
 
+}
+.team img{
+	width: 300px;
+	height: auto;
+	padding-top: 10px;
+	border-radius: 20px;
+}
 
+.team p{
+	padding-top: 10px;
+}
 
-
+.team span{
+	color:#f67f1d; 
+	font-size: 14px;
+	display: inline-block;
+}
 
 
 
@@ -218,7 +245,12 @@ a{
 	background-position: center center;
 	background-image: url(../img/09.jpg);
 }
-
+#submit{
+	border-radius: 5px;
+	padding: 10px 15px;
+	background-color:#fcb61b ;
+	border-color:transparent;
+}
 
 
 
@@ -455,6 +487,9 @@ a{
 }
 
 @media screen and (max-width: 767px) {
+p{
+	font-size: 14px;
+}
 .h1-syle{
 	margin:0px 0 10px 0;
 }
@@ -514,4 +549,16 @@ a{
 .reach-out-content h3{
 	font-size: 30px;
 }
+.h2-style{
+	color: #fff;
+	font-size: 25px;
+	line-height: 1.2;
+	font-weight: bold;
+	margin:35px 0 5px 0;
+}
+#Vision{
+	margin-top: 40px;
+}
+
+
 }
