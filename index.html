@@ -241,7 +241,24 @@
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script type="text/javascript"></script>
+
+<script type="text/javascript">
+
+// $(document).ready(function(){ 
+// $("#homepage-hero-img").click(function() {
+//   $(this).addClass("homepage-hero-img");
+//   $(this).html("<span id='span'>&#10003;</span>  Link copied! ")
+//   setTimeout('btn-2', 2000);
+// })})
+ $(document).ready(function () {
+        $('#homepage-hero-img').hover(function () {
+            $(this).addClass('homepage-hero-img');
+        }, function () {
+            $(this).removeClass('homepage-hero-img');
+        });
+    });
+
+</script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

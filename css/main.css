@@ -52,6 +52,14 @@ a{
 	background-position: center center;
 	background-image: url(../img/02.jpg);
 }
+.homepage-hero-img{
+	min-height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-image: url(../img/03.jpg);
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
 	color: #fff;
@@ -559,6 +567,11 @@ p{
 #Vision{
 	margin-top: 40px;
 }
-
+.team img{
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	border-radius: 20px;
+}
 
 }
