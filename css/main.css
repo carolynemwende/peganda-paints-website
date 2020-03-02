@@ -162,12 +162,12 @@ a{
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
-	background-image: url(../img/13.png);
+	background-image: url(../img/logo-bg.png);
 }
 .our-history{
 	width: 550px;
 	padding: 20px 20px 60px 20px;
-	background-color: #fff;
+	background-color: rgb(255,255,255);
 	transform: translateY(-15%);
 }
 .our-history h2{
