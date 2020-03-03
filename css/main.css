@@ -162,10 +162,11 @@ a{
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
-	background-image: url(../img/logo-bg.png);
+	background-image: url(../img/14.png);
 }
 .our-history{
 	width: 550px;
+	margin: 0 auto;
 	padding: 20px 20px 60px 20px;
 	background-color: rgb(255,255,255);
 	transform: translateY(-15%);
@@ -194,29 +195,7 @@ a{
 	background-position: center center;
 	background-image: url(../img/12.jpg);
 }
-.team h2{
-	color: #4a4a4a;
-	font-size: 25px;
-	line-height: 1.2;
-	font-weight: bold;
 
-}
-.team img{
-	width: 300px;
-	height: auto;
-	padding-top: 10px;
-	border-radius: 20px;
-}
-
-.team p{
-	padding-top: 10px;
-}
-
-.team span{
-	color:#f67f1d; 
-	font-size: 14px;
-	display: inline-block;
-}
 
 
 
