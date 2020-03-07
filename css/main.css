@@ -196,25 +196,6 @@ a{
 	background-image: url(../img/12.jpg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*styling our products page*/
 #productspage-hero-image{
 	min-height: 550px;
@@ -224,11 +205,21 @@ a{
 	background-position: center center;
 	background-image: url(../img/16.jpg);
 }
-
-
-
-
-
+.paints-type h5{
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+.paints-type p{
+	font-size: 15px;
+}
+.paints-type ul li{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 15px 0 5px 0;
+}
 
 
 /*styling contacts page*/
